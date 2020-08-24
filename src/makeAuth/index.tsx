@@ -83,7 +83,7 @@ function makeAuthenticator({
       }
 
       public signOut = () => {
-        this.userManager.removeUser()
+        this.userManager.signoutRedirect()
         this.getUser()
       }
 
